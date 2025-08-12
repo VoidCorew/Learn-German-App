@@ -17,7 +17,7 @@ class _MainNavigationState extends State<MainNavigation> {
   final List<Widget> _screens = const [
     HomeScreen(),
     LevelsScreen(),
-    SettingsScreen(),
+    // SettingsScreen(),
   ];
   final List<NavigationDestination> _destinations = const [
     NavigationDestination(
@@ -30,11 +30,11 @@ class _MainNavigationState extends State<MainNavigation> {
       icon: Icon(FluentIcons.book_24_regular),
       label: 'Уроки',
     ),
-    NavigationDestination(
-      selectedIcon: Icon(FluentIcons.settings_24_filled),
-      icon: Icon(FluentIcons.settings_24_regular),
-      label: 'Настройки',
-    ),
+    // NavigationDestination(
+    //   selectedIcon: Icon(FluentIcons.settings_24_filled),
+    //   icon: Icon(FluentIcons.settings_24_regular),
+    //   label: 'Настройки',
+    // ),
   ];
 
   @override

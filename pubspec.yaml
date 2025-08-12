@@ -39,6 +39,7 @@ dependencies:
   shared_preferences: ^2.5.3
   audioplayers: ^6.5.0
   flutter_launcher_icons: ^0.14.4
+  window_size: ^0.1.0
 
 dependency_overrides:
   audioplayers_web: ^5.1.1
